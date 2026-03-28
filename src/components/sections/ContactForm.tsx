@@ -55,26 +55,26 @@ export const ContactForm = () => {
   const validateField = (name: string, value: string): string | undefined => {
     switch (name) {
       case "name":
-        if (!value.trim()) return "Name is required";
-        if (value.trim().length < 2) return "Name must be at least 2 characters";
+        if (!value.trim()) return "Nama wajib diisi";
+        if (value.trim().length < 2) return "Nama minimal harus 2 karakter";
         return undefined;
 
       case "email":
-        if (!value.trim()) return "Email is required";
+        if (!value.trim()) return "Email wajib diisi";
         if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
-          return "Please enter a valid email address";
+          return "Silakan masukkan alamat email yang valid";
         }
         return undefined;
 
       case "subject":
-        if (!value.trim()) return "Subject is required";
-        if (value.trim().length < 3) return "Subject must be at least 3 characters";
+        if (!value.trim()) return "Subjek wajib diisi";
+        if (value.trim().length < 3) return "Subjek minimal harus 3 karakter";
         return undefined;
 
       case "message":
-        if (!value.trim()) return "Message is required";
-        if (value.trim().length < 10) return "Message must be at least 10 characters";
-        if (value.trim().length > 1000) return "Message must be less than 1000 characters";
+        if (!value.trim()) return "Pesan wajib diisi";
+        if (value.trim().length < 10) return "Pesan minimal harus 10 karakter";
+        if (value.trim().length > 1000) return "Pesan tidak boleh lebih dari 1000 karakter";
         return undefined;
 
       default:
@@ -149,7 +149,7 @@ export const ContactForm = () => {
         setIsSubmitted(false);
       }, 5000);
     } catch (error) {
-      setSubmitError("Failed to send message. Please try again later.");
+      setSubmitError("Gagal mengirim pesan. Silakan coba lagi nanti.");
     } finally {
       setIsSubmitting(false);
     }
@@ -163,16 +163,16 @@ export const ContactForm = () => {
           <CheckCircle className="w-8 h-8 text-green-500" />
         </div>
         <h3 className="text-2xl font-bold text-gray-900 mb-2">
-          Message Sent!
+          Pesan Terkirim!
         </h3>
         <p className="text-gray-600 mb-4">
-          Thank you for reaching out. We'll get back to you within 24 hours.
+          Terima kasih telah menghubungi kami. Kami akan membalas membalas pesan Anda dalam 1x24 jam.
         </p>
         <button
           onClick={() => setIsSubmitted(false)}
           className="text-primary-500 font-medium hover:text-primary-600 transition-colors"
         >
-          Send another message
+          Kirim pesan lainnya
         </button>
       </div>
     );
@@ -182,10 +182,10 @@ export const ContactForm = () => {
     <form onSubmit={handleSubmit} noValidate className="space-y-6">
       {/* Name Field */}
       <Input
-        label="Full Name"
+        label="Nama Lengkap"
         name="name"
         type="text"
-        placeholder="John Doe"
+        placeholder="Nama Anda"
         value={formData.name}
         onChange={handleChange}
         onBlur={handleBlur}
@@ -196,10 +196,10 @@ export const ContactForm = () => {
 
       {/* Email Field */}
       <Input
-        label="Email Address"
+        label="Alamat Email"
         name="email"
         type="email"
-        placeholder="john@example.com"
+        placeholder="email@contoh.com"
         value={formData.email}
         onChange={handleChange}
         onBlur={handleBlur}
@@ -210,10 +210,10 @@ export const ContactForm = () => {
 
       {/* Subject Field */}
       <Input
-        label="Subject"
+        label="Subjek"
         name="subject"
         type="text"
-        placeholder="How can we help?"
+        placeholder="Apa yang bisa kami bantu?"
         value={formData.subject}
         onChange={handleChange}
         onBlur={handleBlur}
@@ -223,9 +223,9 @@ export const ContactForm = () => {
 
       {/* Message Field */}
       <Textarea
-        label="Message"
+        label="Pesan"
         name="message"
-        placeholder="Tell us about your project or inquiry..."
+        placeholder="Ceritakan pada kami tentang proyek atau pertanyaan Anda..."
         value={formData.message}
         onChange={handleChange}
         onBlur={handleBlur}
@@ -250,13 +250,13 @@ export const ContactForm = () => {
         loading={isSubmitting}
         leftIcon={!isSubmitting ? <Send className="w-5 h-5" /> : undefined}
       >
-        {isSubmitting ? "Sending..." : "Send Message"}
+        {isSubmitting ? "Mengirim..." : "Kirim Pesan"}
       </Button>
 
       {/* Form Info */}
       <p className="text-xs text-gray-500 text-center">
-        By submitting this form, you agree to our Privacy Policy and consent to
-        being contacted regarding your inquiry.
+        Dengan mengirimkan formulir ini, Anda menyetujui Kebijakan Privasi kami dan bersedia 
+        untuk dihubungi terkait dengan pertanyaan Anda.
       </p>
     </form>
   );

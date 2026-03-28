@@ -44,35 +44,36 @@ export const HeroSection = () => {
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md rounded-full mb-6 border border-white/20">
               <TrendingUp className="w-4 h-4 text-secondary-400" />
               <span className="text-sm font-medium text-gray-50">
-                Trusted by 100+ Companies Across Indonesia
+                Dipercaya oleh 100+ Perusahaan di Seluruh Indonesia
               </span>
             </div>
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-tight mb-6 tracking-tight">
-              Your Partner in
+              Mitra Anda dalam
               <span className="block text-secondary-400 mt-2">
-                Business Legality & Licensing
+                Legalitas & Perizinan Bisnis
               </span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg sm:text-xl text-gray-200 mb-10 max-w-2xl mx-auto font-light">
-              Professional services for company establishment, OSS licensing, SLF permits,
-              and legal advisory. We simplify the process so you can focus on growing your business.
+              Layanan profesional untuk pendirian perusahaan, perizinan OSS, Sertifikat Laik Fungsi (SLF), 
+              serta konsultasi hukum. Kami menyederhanakan seluruh prosesnya agar Anda dapat berfokus 
+              pada pengembangan bisnis Anda.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
               <Button asChild size="lg" variant="secondary" className="px-8 text-white hover:text-white bg-secondary-500 hover:bg-secondary-600">
                 <Link href="/contact">
-                  Get Started
+                  Mulai Sekarang
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10 hover:border-white/50">
                 <Link href="/about">
-                  Learn More
+                  Pelajari Lebih Lanjut
                 </Link>
               </Button>
             </div>
@@ -83,25 +84,25 @@ export const HeroSection = () => {
                 <div className="text-3xl lg:text-4xl font-bold text-secondary-400 mb-1">
                   50+
                 </div>
-                <div className="text-sm text-gray-200 uppercase tracking-wider text-xs font-semibold">Companies Established</div>
+                <div className="text-sm text-gray-200 uppercase tracking-wider text-xs font-semibold">Perusahaan Didirikan</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl lg:text-4xl font-bold text-secondary-400 mb-1">
                   100+
                 </div>
-                <div className="text-sm text-gray-200 uppercase tracking-wider text-xs font-semibold">OSS Licenses Processed</div>
+                <div className="text-sm text-gray-200 uppercase tracking-wider text-xs font-semibold">Izin OSS Diproses</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl lg:text-4xl font-bold text-secondary-400 mb-1">
                   95%
                 </div>
-                <div className="text-sm text-gray-200 uppercase tracking-wider text-xs font-semibold">Client Satisfaction</div>
+                <div className="text-sm text-gray-200 uppercase tracking-wider text-xs font-semibold">Kepuasan Klien</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl lg:text-4xl font-bold text-secondary-400 mb-1">
                   10+
                 </div>
-                <div className="text-sm text-gray-200 uppercase tracking-wider text-xs font-semibold">Years Experience</div>
+                <div className="text-sm text-gray-200 uppercase tracking-wider text-xs font-semibold">Tahun Pengalaman</div>
               </div>
             </div>
           </div>

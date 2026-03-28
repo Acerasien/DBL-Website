@@ -35,10 +35,10 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://digdoyobowoleksono.
 
 export const metadata: Metadata = {
   title: {
-    default: "PT. Digdoyo Bowo Leksono - Business Legality & Licensing Services",
+    default: "PT. Digdoyo Bowo Leksono - Layanan Legalitas & Perizinan Bisnis",
     template: "%s | PT. Digdoyo Bowo Leksono",
   },
-  description: "Professional services in business legality and licensing. Expert assistance for company establishment, OSS, SLF, and legal advisory in Indonesia.",
+  description: "Layanan profesional dalam legalitas dan perizinan bisnis. Bantuan ahli untuk pendirian perusahaan, OSS, SLF, dan konsultasi hukum di Indonesia.",
 
   // Canonical URL
   metadataBase: new URL(siteUrl),
@@ -49,17 +49,17 @@ export const metadata: Metadata = {
   // Open Graph
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "id_ID",
     url: siteUrl,
     siteName: "PT. Digdoyo Bowo Leksono",
-    title: "PT. Digdoyo Bowo Leksono - Business Legality & Licensing Services",
-    description: "Professional services in business legality and licensing",
+    title: "PT. Digdoyo Bowo Leksono - Layanan Legalitas & Perizinan Bisnis",
+    description: "Layanan profesional dalam legalitas dan perizinan bisnis",
     images: [
       {
         url: `${siteUrl}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "PT. Digdoyo Bowo Leksono - Business Legality & Licensing Services",
+        alt: "PT. Digdoyo Bowo Leksono - Layanan Legalitas & Perizinan Bisnis",
       },
     ],
   },
@@ -67,8 +67,8 @@ export const metadata: Metadata = {
   // Twitter
   twitter: {
     card: "summary_large_image",
-    title: "PT. Digdoyo Bowo Leksono - Business Legality & Licensing Services",
-    description: "Professional services in business legality and licensing",
+    title: "PT. Digdoyo Bowo Leksono - Layanan Legalitas & Perizinan Bisnis",
+    description: "Layanan profesional dalam legalitas dan perizinan bisnis",
     creator: "@digdoyobowoleksono",
     site: "@digdoyobowoleksono",
   },
@@ -99,7 +99,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="id"
       className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${poppins.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col">

@@ -22,12 +22,12 @@ import {
  */
 
 export const metadata: Metadata = {
-  title: "Home - Business Legality & Licensing Services",
-  description: "Professional services for company establishment, OSS licensing, SLF permits, and legal advisory in Indonesia. Trusted by 100+ companies.",
-  keywords: ["company establishment", "OSS licensing", "SLF permit", "legal advisory", "Indonesia", "PT", "CV", "Firma"],
+  title: "Beranda - Layanan Legalitas & Perizinan Bisnis",
+  description: "Layanan profesional untuk pendirian perusahaan, perizinan OSS, Sertifikat Laik Fungsi (SLF), dan konsultasi hukum di Indonesia. Dipercaya oleh 100+ perusahaan.",
+  keywords: ["pendirian perusahaan", "perizinan OSS", "sertifikat laik fungsi", "konsultasi hukum", "Indonesia", "PT", "CV", "Firma"],
   openGraph: {
-    title: "PT. Digdoyo Bowo Leksono - Business Legality & Licensing Services",
-    description: "Your trusted partner for business legality and licensing in Indonesia",
+    title: "PT. Digdoyo Bowo Leksono - Layanan Legalitas & Perizinan Bisnis",
+    description: "Mitra terpercaya Anda untuk legalitas dan perizinan bisnis di Indonesia",
     url: "/",
   },
 };

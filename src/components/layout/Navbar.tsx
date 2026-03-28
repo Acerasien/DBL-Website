@@ -13,9 +13,9 @@ import { Button } from "../ui/Button";
  * Navigation link configuration
  */
 const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
+  { href: "/", label: "Beranda" },
+  { href: "/about", label: "Tentang Kami" },
+  { href: "/contact", label: "Kontak" },
 ];
 
 /**
@@ -125,7 +125,7 @@ export const Navbar = () => {
             {/* Desktop CTA Button */}
             <div className="hidden lg:block relative z-50">
               <Button asChild size="md">
-                <Link href="/contact">Get in Touch</Link>
+                <Link href="/contact">Hubungi Kami</Link>
               </Button>
             </div>
 
@@ -204,7 +204,7 @@ export const Navbar = () => {
           {/* Mobile CTA Button */}
           <div className="p-5 border-t border-border">
             <Button asChild fullWidth size="lg">
-              <Link href="/contact">Get in Touch</Link>
+              <Link href="/contact">Hubungi Kami</Link>
             </Button>
           </div>
         </div>

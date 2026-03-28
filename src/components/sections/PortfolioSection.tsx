@@ -11,26 +11,26 @@ const stats = [
   {
     icon: Building,
     number: "50+",
-    label: "Companies Established",
-    description: "Successfully helped businesses establish their legal entities including PT, CV, and Firma.",
+    label: "Perusahaan Didirikan",
+    description: "Sukses dalam mendampingi berbagai bisnis mensahkan entitas kelembagaan mereka termasuk PT, CV, dan Firma.",
   },
   {
     icon: ClipboardCheck,
     number: "100+",
-    label: "OSS Licenses Processed",
-    description: "Completed business licensing through the OSS system with high success rate.",
+    label: "Izin OSS Diproses",
+    description: "Tuntas menangani urusan lisensi melalui sistem OSS dengan tingkat keberhasilan yang tinggi.",
   },
   {
     icon: FileText,
     number: "80+",
-    label: "SLF Permits Approved",
-    description: "Secured building function permits for commercial and industrial properties.",
+    label: "SLF Disetujui",
+    description: "Berhasil meraih perizinan Sertifikat Laik Fungsi bangunan untuk industri dan komersil.",
   },
   {
     icon: Scale,
     number: "150+",
-    label: "Legal Consultations",
-    description: "Provided ongoing legal advisory services to protect client interests.",
+    label: "Konsultasi Hukum",
+    description: "Aktif menggelar layanan konseling berkelanjutan yang bertujuan melindungi hak klien.",
   },
 ];
 
@@ -52,14 +52,14 @@ export const PortfolioSection = () => {
         <div className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
           <div className="inline-flex items-center gap-2 text-primary-500 font-medium mb-4">
             <span className="w-8 h-px bg-primary-500" />
-            Our Track Record
+            Rekam Jejak Kami
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-            Proven Results
+            Hasil Terbukti Nyata
           </h2>
           <p className="text-lg text-gray-600 mt-4">
-            We've helped numerous businesses successfully navigate Indonesian
-            regulations and establish their presence across the country.
+            Kami telah banyak membantu pertumbuhan bisnis guna menavigasi tata kelola dalam pusaran
+            regulasi Indonesia, serta melebarkan sayap mereka di setiap penjuru negeri.
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export const PortfolioSection = () => {
         <div className="text-center mt-12">
           <Button asChild size="lg">
             <Link href="/about#portfolio">
-              View More Details
+              Lihat Detail Sekilas
             </Link>
           </Button>
         </div>

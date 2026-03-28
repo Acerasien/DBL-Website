@@ -10,28 +10,28 @@ import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from "luc
  */
 const footerLinks = {
   company: {
-    title: "Company",
+    title: "Perusahaan",
     links: [
-      { href: "/about", label: "About Us" },
-      { href: "/about#services", label: "Services" },
-      { href: "/about#portfolio", label: "Our Work" },
+      { href: "/about", label: "Tentang Kami" },
+      { href: "/about#services", label: "Layanan" },
+      { href: "/about#portfolio", label: "Pekerjaan Kami" },
     ],
   },
   services: {
-    title: "Services",
+    title: "Layanan",
     links: [
-      { href: "/about#services", label: "Company Establishment" },
-      { href: "/about#services", label: "OSS Licensing" },
-      { href: "/about#services", label: "SLF Permit" },
-      { href: "/about#services", label: "Legal Advisory" },
+      { href: "/about#services", label: "Pendirian Perusahaan" },
+      { href: "/about#services", label: "Perizinan OSS" },
+      { href: "/about#services", label: "Sertifikat Laik Fungsi" },
+      { href: "/about#services", label: "Konsultasi Hukum" },
     ],
   },
   support: {
-    title: "Support",
+    title: "Dukungan",
     links: [
-      { href: "/contact", label: "Contact Us" },
-      { href: "/privacy", label: "Privacy Policy" },
-      { href: "/terms", label: "Terms of Service" },
+      { href: "/contact", label: "Hubungi Kami" },
+      { href: "/privacy", label: "Kebijakan Privasi" },
+      { href: "/terms", label: "Syarat Ketentuan" },
     ],
   },
 };
@@ -79,8 +79,8 @@ export const Footer = () => {
                 <span className="text-xl font-bold text-white">Digdoyo Bowo Leksono</span>
               </Link>
               <p className="text-gray-400 mb-6 max-w-sm">
-                Professional services in business legality and licensing.
-                Your trusted partner for company establishment, OSS, SLF, and legal advisory in Indonesia.
+                Layanan profesional dalam legalitas dan perizinan bisnis.
+                Mitra profesional Anda untuk pendirian perusahaan, OSS, SLF, dan konsultasi hukum di Indonesia.
               </p>
 
               {/* Contact Info */}
@@ -164,7 +164,7 @@ export const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             {/* Copyright */}
             <p className="text-sm text-gray-400">
-              © {currentYear} PT. Digdoyo Bowo Leksono. All rights reserved.
+              © {currentYear} PT. Digdoyo Bowo Leksono. Seluruh hak cipta dilindungi undang-undang.
             </p>
 
             {/* Social Media Icons */}

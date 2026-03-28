@@ -12,12 +12,12 @@ import { Mail, Phone, MapPin, Clock, Send } from "lucide-react";
  */
 
 export const metadata: Metadata = {
-  title: "Contact Us - Get in Touch",
-  description: "Contact PT. Digdoyo Bowo Leksono for business legality and licensing services. Email: info@digdoyobowoleksono.co.id. We respond within 24 hours.",
-  keywords: ["contact", "business licensing", "company establishment", "OSS", "SLF", "legal advisory", "Jakarta"],
+  title: "Hubungi Kami",
+  description: "Hubungi PT. Digdoyo Bowo Leksono untuk layanan legalitas dan perizinan bisnis. Email: info@digdoyobowoleksono.co.id. Kami membalas dalam 24 jam.",
+  keywords: ["kontak", "perizinan bisnis", "pendirian perusahaan", "OSS", "SLF", "konsultasi hukum", "Jakarta"],
   openGraph: {
-    title: "Contact PT. Digdoyo Bowo Leksono",
-    description: "Get in touch with our team. We respond within 24 hours.",
+    title: "Hubungi PT. Digdoyo Bowo Leksono",
+    description: "Hubungi tim kami. Kami membalas dalam kurun waktu 24 jam.",
     url: "/contact",
   },
 };
@@ -43,11 +43,11 @@ export default function ContactPage() {
         <Container className="relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Contact <span className="text-secondary-400">Us</span>
+              Hubungi <span className="text-secondary-400">Kami</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-200">
-              Get in touch with our team. We're here to help you with
-              your business legality and licensing needs.
+              Jangkau tim kami untuk berkonsultasi seputar masalah 
+              legalitas dan kebutuhan perizinan bisnis Anda.
             </p>
           </div>
         </Container>
@@ -61,11 +61,11 @@ export default function ContactPage() {
             <div className="lg:col-span-2">
               <div className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                  Send Us a Message
+                  Kirimkan Pesan
                 </h2>
                 <p className="text-gray-600">
-                  Fill out the form below and our team will get back to you
-                  within 24 hours.
+                  Isi formulir di bawah ini dan tim kami akan segera menghubungi Anda
+                  dalam waktu 1 kali 24 jam.
                 </p>
               </div>
               <ContactForm />
@@ -75,10 +75,10 @@ export default function ContactPage() {
             <div className="lg:col-span-1">
               <div className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                  Contact Information
+                  Informasi Kontak
                 </h2>
                 <p className="text-gray-600">
-                  Reach out to us directly through any of these channels.
+                  Hubungi kami secara langsung lewat kontak-kontak berikut ini.
                 </p>
               </div>
 
@@ -97,7 +97,7 @@ export default function ContactPage() {
                       info@digdoyobowoleksono.co.id
                     </a>
                     <p className="text-sm text-gray-600 mt-1">
-                      We'll respond within 24 hours
+                      Kami membalas dalam 24 jam
                     </p>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ export default function ContactPage() {
                     <Phone className="w-5 h-5 text-secondary-500" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
+                    <h3 className="font-semibold text-gray-900 mb-1">Telepon</h3>
                     <a
                       href="tel:+62210000000"
                       className="text-primary-500 hover:text-primary-600 transition-colors"
@@ -116,7 +116,7 @@ export default function ContactPage() {
                       +62 21 XXXX XXXX
                     </a>
                     <p className="text-sm text-gray-600 mt-1">
-                      Mon-Fri, 9am-5pm WIB
+                      Senin-Jumat, 09.00-17.00 WIB
                     </p>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ export default function ContactPage() {
                     <MapPin className="w-5 h-5 text-primary-500" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Office</h3>
+                    <h3 className="font-semibold text-gray-900 mb-1">Kantor</h3>
                     <address className="text-gray-600 not-italic">
                       Jakarta, Indonesia
                     </address>
@@ -141,16 +141,16 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">
-                      Business Hours
+                      Jam Operasional
                     </h3>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li className="flex justify-between">
-                        <span>Monday - Friday</span>
-                        <span>9:00 AM - 5:00 PM</span>
+                        <span>Senin - Jumat</span>
+                        <span>09.00 - 17.00 WIB</span>
                       </li>
                       <li className="flex justify-between text-gray-400">
-                        <span>Saturday - Sunday</span>
-                        <span>Closed</span>
+                        <span>Sabtu - Minggu</span>
+                        <span>Tutup</span>
                       </li>
                     </ul>
                   </div>
@@ -160,7 +160,7 @@ export default function ContactPage() {
               {/* Social Links */}
               <div className="mt-10 pt-10 border-t border-gray-200">
                 <h3 className="font-semibold text-gray-900 mb-4">
-                  Follow Us
+                  Ikuti Kami
                 </h3>
                 <div className="flex gap-3">
                   {[
@@ -198,7 +198,7 @@ export default function ContactPage() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="PT. Digdoyo Bowo Leksono Location"
+            title="Lokasi PT. Digdoyo Bowo Leksono"
             className="grayscale hover:grayscale-0 transition-all duration-500"
           />
         </div>
@@ -209,44 +209,44 @@ export default function ContactPage() {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Frequently Asked Questions
+              Pertanyaan yang Sering Diajukan
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Quick answers to common questions about our services and process.
+              Jawaban cepat dari beberapa pertanyaan umum mengenai layanan dan proses kami.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
               {
-                question: "How long does company establishment take?",
+                question: "Berapa lama proses pendirian perusahaan biasanya memakan waktu?",
                 answer:
-                  "The process typically takes 2-4 weeks depending on the type of entity and completeness of documents. We'll guide you through every step to ensure a smooth process.",
+                  "Proses ini umumnya membutuhkan waktu 2-4 minggu tergantung pada jenis badan usaha dan kelengkapan dokumen. Kami akan memandu Anda dalam setiap tahapan untuk memastikan kelancarannya.",
               },
               {
-                question: "What documents are needed for OSS licensing?",
+                question: "Dokumen apa saja yang dibutuhkan untuk perizinan OSS?",
                 answer:
-                  "Requirements vary by business type, but generally include company documents (NIB), ID of directors, and business address proof. We'll provide a complete checklist based on your specific needs.",
+                  "Syarat dokumen bervariasi bergantung pada jenis bisnis, tetapi umumnya meliputi dokumen perusahaan induk (NIB), KTP/identitas direksi, serta bukti alamat domisili usaha. Kami akan memberikan daftar periksa lengkap sesuai dengan kebutuhan spesifik Anda.",
               },
               {
-                question: "Do you handle SLF permits for all building types?",
+                question: "Apakah Anda juga memproses izin SLF untuk semua jenis bangunan?",
                 answer:
-                  "Yes, we process SLF permits for commercial, industrial, and residential buildings. Our team will coordinate with relevant authorities to ensure compliance.",
+                  "Ya, kami memproses pengajuan dan penerbitan SLF untuk ragam fungsi bangunan komersial, industri, dan residensial. Tim kami akan berkoordinasi secara langsung dengan pihak berwenang guna memastikan bahwa bangunan Anda telah layak secara teknis.",
               },
               {
-                question: "Can you help with legal review of contracts?",
+                question: "Dapatkah Anda membantu meninjau draf kontrak kerja dan hukum?",
                 answer:
-                  "Absolutely. Our legal advisory service includes contract review, drafting, and negotiation support to protect your business interests.",
+                  "Tentu saja. Cakupan layanan penasihatan hukum kami secara tak terbatas meliputi peninjauan kontrak, penyusunan draf, maupun dukungan konsultansi mitigasi terkait untuk senantiasa melindungi entitas perusahan Anda.",
               },
               {
-                question: "Do you serve clients outside Jakarta?",
+                question: "Apakah Anda melayani klien dari luar Jakarta?",
                 answer:
-                  "Yes, we serve clients across Indonesia including Surabaya, Bandung, Bali, and other major cities. We can handle remote consultations and on-site visits as needed.",
+                  "Ya, kami melayani berbagai klien perusahaan di seluruh Indonesia termasuk Surabaya, Bandung, Bali, maupun sebaran kota besar lainnya. Kami dapat mengakomodasi agenda konsultasi jarak jauh / virtual hingga kunjungan on-site bila diperlukan.",
               },
               {
-                question: "What are your service fees?",
+                question: "Bagaimana dengan sistem atau rentang biaya layanannya?",
                 answer:
-                  "Fees vary based on service type and complexity. Contact us for a customized quote. We offer transparent pricing with no hidden costs.",
+                  "Biaya yang dikenakan cukup bervariasi bergantung pada jenis layanan dan kompleksitas permasalahannya. Silahkan hubungi kami guna mendapatkan penawaran awal yang dapat disesuaikan. Kami menawarkan penetapan harga yang transparan tanpa hidden costs (biaya siluman).",
               },
             ].map((faq, index) => (
               <div
@@ -270,11 +270,11 @@ export default function ContactPage() {
         <Container>
           <div className="bg-primary-500 rounded-3xl p-10 lg:p-16 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              Ready to Start Your Business Journey?
+              Siap Memulai Perjalanan Bisnis Anda?
             </h2>
             <p className="text-lg text-primary-100 mb-8 max-w-2xl mx-auto">
-              Schedule a free consultation with our experts to discuss your
-              business legality and licensing needs.
+              Jadwalkan konsultasi gratis dengan para ahli kami untuk membantu menganalisis lebih komperhensif
+              kebutuhan legalitas dan perizinan bisnis Anda.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -282,14 +282,14 @@ export default function ContactPage() {
                 className="inline-flex items-center justify-center px-8 py-3 bg-white text-primary-500 font-semibold rounded-lg hover:bg-primary-50 transition-colors duration-200"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                Call Now
+                Telepon Sekarang
               </a>
               <a
                 href="mailto:info@digdoyobowoleksono.co.id"
                 className="inline-flex items-center justify-center px-8 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200"
               >
                 <Send className="w-5 h-5 mr-2" />
-                Email Us
+                Kirim Email
               </a>
             </div>
           </div>

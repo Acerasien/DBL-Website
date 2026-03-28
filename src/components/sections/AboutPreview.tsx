@@ -33,7 +33,7 @@ export const AboutPreview = () => {
                   <Award className="w-10 h-10 text-primary-500" />
                   <div>
                     <div className="text-2xl font-bold text-gray-900">10+</div>
-                    <div className="text-sm text-gray-600">Years of Excellence</div>
+                    <div className="text-sm text-gray-600">Tahun Keunggulan</div>
                   </div>
                 </div>
               </div>
@@ -49,52 +49,52 @@ export const AboutPreview = () => {
             {/* Section Label */}
             <div className="inline-flex items-center gap-2 text-primary-500 font-medium mb-4">
               <span className="w-8 h-px bg-primary-500" />
-              About PT. Digdoyo Bowo Leksono
+              Tentang PT. Digdoyo Bowo Leksono
             </div>
 
             {/* Heading */}
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-              Your Partner in
-              <span className="text-primary-500"> Business Legality & Licensing</span>
+              Mitra Anda dalam
+              <span className="text-primary-500"> Legalitas & Perizinan Bisnis</span>
             </h2>
 
             {/* Description */}
             <p className="text-lg text-gray-600 mb-6">
-              PT. Digdoyo Bowo Leksono provides professional services for business
-              legality and licensing in Indonesia. We simplify the complex process
-              of company establishment, OSS licensing, SLF permits, and legal advisory.
+              PT. Digdoyo Bowo Leksono menyediakan layanan profesional di bidang
+              legalitas dan perizinan bisnis di Indonesia. Kami menyederhanakan rumitnya proses
+              pendirian badan usaha, perizinan OSS, penerbitan izin SLF, maupun perihal konsultasi hukum.
             </p>
 
             <p className="text-gray-600 mb-8">
-              Our experienced team is dedicated to helping your business navigate
-              Indonesian regulations with confidence. We handle the paperwork so
-              you can focus on growing your business.
+              Tim profesional berpengalaman kami siap mendedikasikan diri untuk membantu laju bisnis Anda agar bisa
+              menavigasi bermacam regulasi Indonesia secara lebih percaya diri. Kami menangani urusan administratif agar
+              Anda dapat berfokus kepada pengembangan bisnis.
             </p>
 
             {/* Key Differentiators */}
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
               <Differentiator
                 icon={Award}
-                text="Expert Team"
+                text="Tim Ahli"
               />
               <Differentiator
                 icon={Globe}
-                text="Nationwide Service"
+                text="Layanan Nasional"
               />
               <Differentiator
                 icon={Clock}
-                text="Fast Processing"
+                text="Pemrosesan Cepat"
               />
               <Differentiator
                 icon={CheckCircle}
-                text="Trusted Partner"
+                text="Mitra Terpercaya"
               />
             </div>
 
             {/* CTA Button */}
             <Button asChild size="lg">
               <Link href="/about">
-                Learn More About Us
+                Pelajari Tentang Kami
               </Link>
             </Button>
           </div>

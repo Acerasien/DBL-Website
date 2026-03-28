@@ -19,11 +19,11 @@ export const ContactCTA = () => {
           <div className="text-center mb-12">
             {/* Heading */}
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              Ready to Start Your Business Journey?
+              Siap Memulai Perjalanan Bisnis Anda?
             </h2>
             <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-              Let us help you navigate the legal and licensing requirements.
-              Contact us today for a consultation.
+              Biarkan kami membantu setiap kebutuhan prosedur legalitas hingga perizinan Anda.
+              Hubungi kami sekarang untuk berkonsultasi secara lebih mendalam.
             </p>
 
             {/* Primary CTA Button */}
@@ -34,7 +34,7 @@ export const ContactCTA = () => {
                 className="bg-white text-primary-500 hover:bg-gray-100 font-semibold"
               >
                 <Link href="/contact">
-                  Schedule Free Consultation
+                  Jadwalkan Konsultasi Gratis
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
               </Button>
@@ -45,7 +45,7 @@ export const ContactCTA = () => {
                 className="border-2 border-white text-white hover:bg-secondary-500 hover:border-secondary-500 hover:text-white font-semibold bg-transparent"
               >
                 <Link href="/about#services">
-                  View Our Services
+                  Lihat Layanan Kami
                 </Link>
               </Button>
             </div>
@@ -61,7 +61,7 @@ export const ContactCTA = () => {
               <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-3 group-hover:bg-white/20 transition-colors">
                 <Mail className="w-6 h-6 text-white" />
               </div>
-              <span className="text-white font-medium">Email Us</span>
+              <span className="text-white font-medium">Kirim Email</span>
               <span className="text-primary-200 text-sm">info@digdoyobowoleksono.co.id</span>
             </a>
 
@@ -73,7 +73,7 @@ export const ContactCTA = () => {
               <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-3 group-hover:bg-white/20 transition-colors">
                 <Phone className="w-6 h-6 text-white" />
               </div>
-              <span className="text-white font-medium">Call Us</span>
+              <span className="text-white font-medium">Hubungi Kami</span>
               <span className="text-primary-200 text-sm">+62 21 XXXX XXXX</span>
             </a>
 
@@ -82,8 +82,8 @@ export const ContactCTA = () => {
               <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-3">
                 <Clock className="w-6 h-6 text-white" />
               </div>
-              <span className="text-white font-medium">Business Hours</span>
-              <span className="text-primary-200 text-sm">Mon-Fri, 9am-5pm WIB</span>
+              <span className="text-white font-medium">Jam Operasional</span>
+              <span className="text-primary-200 text-sm">Senin-Jumat, 09.00-17.00 WIB</span>
             </div>
           </div>
         </div>

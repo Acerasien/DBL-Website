@@ -15,26 +15,26 @@ import {
 const services = [
   {
     icon: Building,
-    title: "Company Establishment",
-    description: "Complete assistance for establishing your business entity (PT, CV, Firma). We handle the legal paperwork so you can focus on your business.",
+    title: "Pendirian Perusahaan",
+    description: "Bantuan lengkap untuk mendirikan badan usaha Anda (PT, CV, Firma). Kami mengurus pembuatan dokumen hukum agar Anda dapat berfokus pada bisnis Anda.",
     link: "/about#services",
   },
   {
     icon: ClipboardCheck,
-    title: "OSS Licensing",
-    description: "Online Single Submission (OSS) license processing. Fast and accurate handling of your business licensing requirements through the government system.",
+    title: "Perizinan OSS",
+    description: "Pemrosesan izin Online Single Submission (OSS). Penanganan kebutuhan perizinan bisnis Anda dengan cepat dan akurat melalui sistem pemerintahan.",
     link: "/about#services",
   },
   {
     icon: FileText,
-    title: "SLF Permit",
-    description: "Surat Layak Fungsi (Building Function Permit) processing. Ensure your business premises meet all regulatory requirements for safe operation.",
+    title: "Sertifikat Laik Fungsi",
+    description: "Pemrosesan Sertifikat Laik Fungsi bangunan. Memastikan lokasi bisnis Anda memenuhi seluruh syarat regulasi demi keamanan operasional.",
     link: "/about#services",
   },
   {
     icon: Scale,
-    title: "Legal Advisory",
-    description: "Ongoing legal consultation for your business. Expert advice on compliance, contracts, and legal matters to protect your interests.",
+    title: "Konsultasi Hukum",
+    description: "Konsultasi berkelanjutan untuk bisnis Anda. Saran ahli tentang kepatuhan, kontrak kerja, hingga mitigasi masalah hukum untuk melindungi kepentingan Anda.",
     link: "/about#services",
   },
 ];
@@ -58,11 +58,11 @@ export const ServicesSection = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Our Services
+            Layanan Kami
           </h2>
           <p className="text-lg text-gray-600">
-            Comprehensive legal and licensing solutions for your business.
-            Professional guidance from establishment to ongoing compliance.
+            Solusi legalitas dan perizinan yang komprehensif bagi bisnis Anda.
+            Panduan profesional dari awal mula pendirian hingga penerapan kepatuhan regulasi.
           </p>
         </div>
 
@@ -96,7 +96,7 @@ export const ServicesSection = () => {
                   href={service.link}
                   className="inline-flex items-center text-primary-500 font-medium hover:text-primary-600 transition-colors group-hover/link:translate-x-1 transition-transform"
                 >
-                  Learn More
+                  Pelajari Lebih Lanjut
                   <ArrowRightIcon className="w-4 h-4 ml-2 transform group-hover/link:translate-x-1 transition-transform" />
                 </Link>
               </CardBody>
@@ -108,7 +108,7 @@ export const ServicesSection = () => {
         <div className="text-center mt-12">
           <Button asChild variant="outline" size="lg">
             <Link href="/contact">
-              Schedule a Consultation
+              Jadwalkan Konsultasi
             </Link>
           </Button>
         </div>

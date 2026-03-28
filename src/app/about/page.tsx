@@ -28,12 +28,12 @@ import Link from "next/link";
  */
 
 export const metadata: Metadata = {
-  title: "About Us - Business Legality & Licensing Services",
-  description: "Learn about PT. Digdoyo Bowo Leksono - Your trusted partner for company establishment, OSS licensing, SLF permits, and legal advisory in Indonesia.",
-  keywords: ["about", "company establishment", "OSS licensing", "SLF permit", "legal advisory", "Indonesia"],
+  title: "Tentang Kami - Layanan Legalitas & Perizinan Bisnis",
+  description: "Pelajari tentang PT. Digdoyo Bowo Leksono - Mitra terpercaya Anda untuk pendirian perusahaan, perizinan OSS, SLF, dan konsultasi hukum di Indonesia.",
+  keywords: ["tentang", "pendirian perusahaan", "perizinan OSS", "sertifikat laik fungsi", "konsultasi hukum", "Indonesia"],
   openGraph: {
-    title: "About PT. Digdoyo Bowo Leksono",
-    description: "Professional services in business legality and licensing",
+    title: "Tentang PT. Digdoyo Bowo Leksono",
+    description: "Layanan profesional dalam legalitas dan perizinan bisnis",
     url: "/about",
   },
 };
@@ -42,36 +42,36 @@ export const metadata: Metadata = {
 const services = [
   {
     icon: Building,
-    title: "Company Establishment",
-    description: "Complete assistance for establishing your business entity (PT, CV, Firma). We handle the legal paperwork so you can focus on your business.",
+    title: "Pendirian Perusahaan",
+    description: "Bantuan lengkap untuk mendirikan badan usaha Anda (PT, CV, Firma). Kami urus dokumen legalnya agar Anda bisa fokus pada bisnis.",
     link: "/about#services",
   },
   {
     icon: ClipboardCheck,
-    title: "OSS Licensing",
-    description: "Online Single Submission (OSS) license processing. Fast and accurate handling of your business licensing requirements.",
+    title: "Perizinan OSS",
+    description: "Pengurusan izin usaha Online Single Submission (OSS). Penanganan persyaratan perizinan bisnis Anda dengan cepat dan akurat.",
     link: "/about#services",
   },
   {
     icon: FileText,
-    title: "SLF Permit",
-    description: "Surat Layak Fungsi (Building Function Permit) processing. Ensure your business premises meet regulatory requirements.",
+    title: "Sertifikat Laik Fungsi",
+    description: "Pengurusan Sertifikat Laik Fungsi bangunan. Pastikan lokasi bisnis Anda memenuhi persyaratan regulasi yang berlaku.",
     link: "/about#services",
   },
   {
     icon: Scale,
-    title: "Legal Advisory",
-    description: "Ongoing legal consultation for your business. Expert advice on compliance, contracts, and legal matters.",
+    title: "Konsultasi Hukum",
+    description: "Konsultasi hukum berkelanjutan untuk bisnis Anda. Saran ahli mengenai kepatuhan, kontrak, dan masalah hukum lainnya.",
     link: "/about#services",
   },
 ];
 
 // Portfolio/Track record data
 const portfolioStats = [
-  { number: "50+", label: "Companies Established", description: "Successfully helped businesses establish their legal entities" },
-  { number: "100+", label: "OSS Licenses Processed", description: "Completed business licensing through OSS system" },
-  { number: "80+", label: "SLF Permits Approved", description: "Building function permits secured for clients" },
-  { number: "150+", label: "Legal Consultations", description: "Ongoing legal advisory services provided" },
+  { number: "50+", label: "Perusahaan Didirikan", description: "Telah sukses membantu berbagai bisnis mendirikan badan hukum mereka" },
+  { number: "100+", label: "Izin OSS Diproses", description: "Perizinan bisnis yang diselesaikan lewat sistem OSS" },
+  { number: "80+", label: "SLF Disetujui", description: "Sertifikat Laik Fungsi yang berhasil didapatkan untuk klien" },
+  { number: "150+", label: "Konsultasi Hukum", description: "Layanan penasihat hukum berkelanjutan yang kami berikan" },
 ];
 
 export default function AboutPage() {
@@ -95,10 +95,10 @@ export default function AboutPage() {
         <Container className="relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              About <span className="text-secondary-400">PT. Digdoyo Bowo Leksono</span>
+              Tentang <span className="text-secondary-400">PT. Digdoyo Bowo Leksono</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-200">
-              Your trusted partner for business legality and licensing services in Indonesia
+              Mitra terpercaya Anda untuk layanan legalitas dan perizinan bisnis di Indonesia
             </p>
           </div>
         </Container>
@@ -124,25 +124,24 @@ export default function AboutPage() {
             {/* Content */}
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                Our Story
+                Kisah Kami
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  PT. Digdoyo Bowo Leksono was founded with a clear mission: to simplify
-                  the complex process of business establishment and licensing in Indonesia.
-                  We understand that navigating legal requirements can be challenging for
-                  businesses, which is why we're here to help.
+                  PT. Digdoyo Bowo Leksono didirikan dengan satu misi utama: menyederhanakan
+                  rumitnya proses perizinan dan pendirian bisnis di Indonesia. Kami paham bahwa
+                  menangani urusan regulasi bisa jadi menantang, karenanya kami di sini untuk membantu.
                 </p>
                 <p>
-                  Our team of experienced professionals provides comprehensive services
-                  in company establishment, OSS licensing, SLF permits, and legal advisory.
-                  We combine deep knowledge of Indonesian regulations with practical
-                  business understanding to deliver efficient solutions.
+                  Tim profesional berpengalaman kami siap memberikan pelayanan komplit 
+                  dalam pendirian perusahaan, penerbitan izin OSS, izin SLF, maupun 
+                  konsultansi hukum. Kami memadukan wawasan seputar regulasi lokal 
+                  dengan pemahaman praktis bisnis Anda agar lebih efisien.
                 </p>
                 <p>
-                  With years of experience and a track record of successful projects,
-                  we've become a trusted partner for businesses looking to establish
-                  and grow their presence in Indonesia.
+                  Selama bertahun-tahun, dengan berbagai pengalaman proyek yang berjalan aman,
+                  kami telah menjadi partner terpercaya bagi pebisnis yang ingin 
+                  memulai dan terus berkembang di skala nasional maupun internasional.
                 </p>
               </div>
 
@@ -150,15 +149,15 @@ export default function AboutPage() {
               <div className="grid grid-cols-3 gap-6 mt-10 pt-10 border-t border-gray-200">
                 <div>
                   <div className="text-3xl font-bold text-primary-500 mb-1">10+</div>
-                  <div className="text-sm text-gray-600">Years Experience</div>
+                  <div className="text-sm text-gray-600">Tahun Pengalaman</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-primary-500 mb-1">100+</div>
-                  <div className="text-sm text-gray-600">Clients Served</div>
+                  <div className="text-sm text-gray-600">Klien Dilayani</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-primary-500 mb-1">95%</div>
-                  <div className="text-sm text-gray-600">Success Rate</div>
+                  <div className="text-sm text-gray-600">Tingkat Keberhasilan</div>
                 </div>
               </div>
             </div>
@@ -171,10 +170,10 @@ export default function AboutPage() {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Vision & Mission
+              Visi & Misi
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Guided by clear purpose and unwavering values
+              Dipandu oleh tujuan yang jelas dan nilai-nilai yang teguh
             </p>
           </div>
 
@@ -184,24 +183,24 @@ export default function AboutPage() {
               <div className="w-14 h-14 bg-primary-100 rounded-xl flex items-center justify-center mb-6">
                 <Target className="w-7 h-7 text-primary-500" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Visi Kami</h3>
               <p className="text-gray-600 leading-relaxed mb-6">
-                To be the most trusted partner for business legality and licensing
-                services in Indonesia, recognized for our professionalism, efficiency,
-                and commitment to client success.
+                Menjadi mitra paling terpercaya untuk layanan legalitas dan perizinan bisnis
+                di Indonesia, yang diakui karena profesionalisme, efisiensi, serta komitmen
+                akan kesuksesan para klien kami.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-primary-500 rounded-full mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Industry-leading expertise</span>
+                  <span className="text-gray-700">Keahlian terkemuka di industri</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-primary-500 rounded-full mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Efficient process handling</span>
+                  <span className="text-gray-700">Penanganan proses yang efisien</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-primary-500 rounded-full mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Client-focused service</span>
+                  <span className="text-gray-700">Layanan yang berfokus pada klien</span>
                 </li>
               </ul>
             </Card>
@@ -211,24 +210,24 @@ export default function AboutPage() {
               <div className="w-14 h-14 bg-secondary-100 rounded-xl flex items-center justify-center mb-6">
                 <Award className="w-7 h-7 text-secondary-500" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Misi Kami</h3>
               <p className="text-gray-600 leading-relaxed mb-6">
-                We empower businesses to navigate Indonesian regulations with confidence
-                by providing comprehensive legal and licensing services that are
-                efficient, transparent, and reliable.
+                Kami memberdayakan bisnis untuk menavigasi regulasi Indonesia dengan percaya diri
+                melalui penyediaan layanan hukum dan perizinan yang konprehensif, efisien, 
+                transparan, dan dapat diandalkan.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-secondary-500 rounded-full mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Simplify complex processes</span>
+                  <span className="text-gray-700">Menyederhanakan proses yang rumit</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-secondary-500 rounded-full mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Transparent communication</span>
+                  <span className="text-gray-700">Komunikasi yang transparan</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-secondary-500 rounded-full mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Timely delivery</span>
+                  <span className="text-gray-700">Penyelesaian tepat waktu</span>
                 </li>
               </ul>
             </Card>
@@ -241,10 +240,10 @@ export default function AboutPage() {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Layanan Kami
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Comprehensive legal and licensing solutions for your business
+              Solusi aspek legal dan perizinan yang komprehensif bagi bisnis Anda
             </p>
           </div>
 
@@ -273,7 +272,7 @@ export default function AboutPage() {
                     href={service.link}
                     className="inline-flex items-center text-primary-500 font-medium hover:text-primary-600 transition-colors group-hover/link:translate-x-1 transition-transform"
                   >
-                    Learn More
+                    Pelajari Lebih Lanjut
                     <svg className="w-4 h-4 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
@@ -290,10 +289,10 @@ export default function AboutPage() {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Our Track Record
+              Rekam Jejak Kami
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Proven results in helping businesses establish and grow in Indonesia
+              Hasil nyata yang telah terbukti dalam membantu pendirian bisnis serta pertumbuhan bisnis di Indonesia
             </p>
           </div>
 
@@ -322,31 +321,30 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl lg:text-3xl font-bold mb-4">
-                  Serving Clients Across Indonesia
+                  Melayani Klien di Seluruh Indonesia
                 </h3>
                 <p className="text-primary-100 leading-relaxed">
-                  From Jakarta to Surabaya, Bandung to Bali, we've helped businesses
-                  of all sizes navigate the complexities of Indonesian business
-                  regulations. Our network and expertise span across major cities
-                  and industrial zones throughout the archipelago.
+                  Dari Jakarta hingga Surabaya, Bandung hingga Bali, kami telah membantu banyak bisnis 
+                  dari ragam ukuran menavigasi kerumitan regulasi dunia usaha. Jaringan serta keahlian kami 
+                  menjangkau banyak kota-kota besar dan kawasan industri di Indonesia.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center p-4 bg-white/10 rounded-xl">
                   <div className="text-2xl font-bold mb-1">Jakarta</div>
-                  <div className="text-sm text-primary-100">Head Office</div>
+                  <div className="text-sm text-primary-100">Kantor Pusat</div>
                 </div>
                 <div className="text-center p-4 bg-white/10 rounded-xl">
                   <div className="text-2xl font-bold mb-1">Surabaya</div>
-                  <div className="text-sm text-primary-100">Branch Office</div>
+                  <div className="text-sm text-primary-100">Kantor Cabang</div>
                 </div>
                 <div className="text-center p-4 bg-white/10 rounded-xl">
                   <div className="text-2xl font-bold mb-1">Bandung</div>
-                  <div className="text-sm text-primary-100">Service Area</div>
+                  <div className="text-sm text-primary-100">Area Layanan</div>
                 </div>
                 <div className="text-center p-4 bg-white/10 rounded-xl">
                   <div className="text-2xl font-bold mb-1">Bali</div>
-                  <div className="text-sm text-primary-100">Service Area</div>
+                  <div className="text-sm text-primary-100">Area Layanan</div>
                 </div>
               </div>
             </div>
@@ -359,10 +357,10 @@ export default function AboutPage() {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Our Core Values
+              Nilai-Nilai Inti Kami
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              The principles that guide everything we do
+              Prinsip-prinsip yang senantiasa memandu apa yang kami lakukan
             </p>
           </div>
 
@@ -370,26 +368,26 @@ export default function AboutPage() {
             {[
               {
                 icon: Users,
-                title: "Client Focus",
-                description: "We put our clients' needs first, providing personalized service and solutions.",
+                title: "Berfokus pada Klien",
+                description: "Kami mendahulukan kebutuhan klien serta memberikan solusi serta layanan yang terpersonalisasi.",
                 color: "primary",
               },
               {
                 icon: TrendingUp,
-                title: "Professionalism",
-                description: "We maintain the highest standards of professional conduct in all interactions.",
+                title: "Profesionalisme",
+                description: "Kami menjaga standar profesional dan interaksi terbaik dalam setiap kesempatan.",
                 color: "secondary",
               },
               {
                 icon: BookOpen,
-                title: "Integrity",
-                description: "We act with honesty and transparency, building trust through our actions.",
+                title: "Integritas",
+                description: "Kami bertindak dengan kejujuran dan transparan, membangun kepercayaan dan rekam jejak yang baik.",
                 color: "primary",
               },
               {
                 icon: Heart,
-                title: "Excellence",
-                description: "We strive for excellence in every service we provide, never settling for less.",
+                title: "Keunggulan",
+                description: "Kami berusaha untuk meraih hasil terbaik dalam setiap layanan yang kami berikan kepada klien.",
                 color: "secondary",
               },
             ].map((value, index) => (
@@ -429,24 +427,23 @@ export default function AboutPage() {
         <Container>
           <div className="bg-primary-500 rounded-3xl p-10 lg:p-16 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              Ready to Start Your Business Journey?
+              Siap Memulai Perjalanan Bisnis Anda?
             </h2>
             <p className="text-lg text-primary-100 mb-8 max-w-2xl mx-auto">
-              Let us help you navigate the legal and licensing requirements.
-              Contact us today for a consultation.
+               Mari kita wujudkan impian bisnis Anda. Hubungi kami sekarang dan temukan solusi terbaik untuk kebutuhan Anda.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="/contact"
                 className="inline-flex items-center justify-center px-8 py-3 bg-white text-primary-500 font-semibold rounded-lg hover:bg-primary-50 transition-colors duration-200"
               >
-                Get in Touch
+                Hubungi Kami
               </a>
               <a
                 href="#services"
                 className="inline-flex items-center justify-center px-8 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200"
               >
-                View Services
+                Lihat Layanan
               </a>
             </div>
           </div>
