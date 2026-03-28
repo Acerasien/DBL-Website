@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+/* ============================================
+   PT. DIGDOYO BOWO LEKSONO DESIGN TOKENS
+   Brand Colors: Cyan Blue #0EA5E9 · Lime Green #84CC16
+   Logo-inspired palette representing growth and partnership
+   ============================================ */
+
+:root {
+  /* Primary Blue Scale (from logo's blue leaf) */
+  --color-primary: #0EA5E9;        /* Cyan blue — main CTAs, links */
+  --color-primary-dark: #0369A1;   /* Deep blue — hover states */
+  --color-primary-deeper: #075985; /* Darkest blue — footer, accents */
+
+  /* Secondary Green Scale (from logo's green leaf) */
+  --color-secondary: #84CC16;      /* Lime green — secondary CTAs, accents */
+  --color-secondary-dark: #65A30D; /* Forest green — hover states */
+  --color-secondary-light: #A3E635;/* Light green — highlights */
+
+  /* Accent - using green as accent color */
+  --color-accent: #84CC16;
+  --color-accent-dark: #65A30D;
+  --color-accent-light: #A3E635;
+
+  /* Neutrals */
+  --color-white: #FFFFFF;
+  --color-light-gray: #F9FAFB;     /* Section backgrounds */
+  --color-medium-gray: #E5E7EB;    /* Borders, dividers */
+  --color-dark-gray: #6B7280;      /* Muted text */
+  --color-text: #374151;           /* Primary text (charcoal gray) */
+
+  /* Semantic colors */
+  --background: #FFFFFF;           /* White page background */
+  --foreground: #374151;           /* Charcoal gray for text */
+  --muted: #F9FAFB;                /* Muted section bg */
+  --muted-foreground: #6B7280;     /* Muted text */
+  --border: #E5E7EB;               /* Light gray borders */
+  --ring: #0EA5E9;                 /* Focus rings (blue) */
+}
+
+/* Dark mode intentionally not implemented — site uses a light-only design. */
+
+@theme inline {
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  /* Primary Blue — full scale derived from #0EA5E9 */
+  --color-primary-50:  #F0F9FF;
+  --color-primary-100: #E0F2FE;
+  --color-primary-200: #BAE6FD;
+  --color-primary-300: #7DD3FC;
+  --color-primary-400: #38BDF8;
+  --color-primary-500: #0EA5E9;   /* #0EA5E9 — cyan blue */
+  --color-primary-600: #0284C7;
+  --color-primary-700: #0369A1;   /* #0369A1 — deep blue */
+  --color-primary-800: #075985;   /* #075985 — darkest blue */
+  --color-primary-900: #0C4A6E;
+
+  /* Secondary Green — full scale derived from #84CC16 */
+  --color-secondary-50:  #F7FEE7;
+  --color-secondary-100: #ECFCCB;
+  --color-secondary-200: #D9F99D;
+  --color-secondary-300: #BEF264;
+  --color-secondary-400: #A3E635;
+  --color-secondary-500: #84CC16; /* #84CC16 — lime green */
+  --color-secondary-600: #65A30D; /* #65A30D — forest green */
+  --color-secondary-700: #4D7C0F;
+  --color-secondary-800: #3F6212;
+  --color-secondary-900: #365314;
+
+  /* Accent mirrors secondary for CTA elements */
+  --color-accent-50:  #F7FEE7;
+  --color-accent-100: #ECFCCB;
+  --color-accent-200: #D9F99D;
+  --color-accent-300: #BEF264;
+  --color-accent-400: #A3E635;
+  --color-accent-500: #84CC16;
+  --color-accent-600: #65A30D;
+  --color-accent-700: #4D7C0F;
+  --color-accent-800: #3F6212;
+  --color-accent-900: #365314;
+
+  /* Neutral Grays */
+  --color-gray-50:  #F9FAFB;
+  --color-gray-100: #F3F4F6;
+  --color-gray-200: #E5E7EB;
+  --color-gray-300: #D1D5DB;
+  --color-gray-400: #9CA3AF;
+  --color-gray-500: #6B7280;
+  --color-gray-600: #4B5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1F2A37;
+  --color-gray-900: #111827;
+
+  /* Semantic Colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+
+  /* Typography */
+  --font-heading: var(--font-poppins), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+  --font-sans: var(--font-inter), var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  
+  /* Font Sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  
+  /* Spacing Scale */
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-full: 9999px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(10 22 40 / 0.06);
+  --shadow-md: 0 4px 6px -1px rgb(10 22 40 / 0.12), 0 2px 4px -2px rgb(10 22 40 / 0.08);
+  --shadow-lg: 0 10px 15px -3px rgb(10 22 40 / 0.12), 0 4px 6px -4px rgb(10 22 40 / 0.08);
+  --shadow-xl: 0 20px 25px -5px rgb(10 22 40 / 0.14), 0 8px 10px -6px rgb(10 22 40 / 0.08);
+}
+
+@layer base {
+  /* Base Styles */
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body);
+    line-height: 1.6;
+  }
+
+  /* Heading Styles */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--foreground);
+  }
+}
+
+/* Link Styles — placed in @layer base so Tailwind utility classes (text-*) always win */
+@layer base {
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 150ms ease;
+  }
+
+  a:hover {
+    color: var(--color-accent);
+  }
+}
